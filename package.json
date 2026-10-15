@@ -1,0 +1,61 @@
+{
+  "name": "douyin-lead-workbench",
+  "version": "0.1.1",
+  "private": true,
+  "description": "单账号、本地审核后执行的抖音线索工作台",
+  "author": "Local Workbench",
+  "license": "MIT",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "vendor": "node scripts/vendor.cjs",
+    "build": "node scripts/build.cjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.3.1",
+    "electron": "44.7.2",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "electronDist": "node_modules/electron/dist",
+    "appId": "local.douyin.leadworkbench",
+    "productName": "抖音线索工作台",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "lib/**/*",
+      "ui/**/*",
+      "browser/**/*",
+      "vendor/**/*",
+      "README.md",
+      "MCP.md",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "runAfterFinish": false,
+      "deleteAppDataOnUninstall": false,
+      "artifactName": "Douyin-Workbench-${version}-${arch}-Setup.${ext}"
+    },
+    "portable": {
+      "artifactName": "Douyin-Workbench-${version}-${arch}-Portable.${ext}"
+    }
+  },
+  "dependencies": {
+    "@modelcontextprotocol/node": "2.1.1",
+    "@modelcontextprotocol/server": "2.3.1",
+    "zod": "4.6.7"
+  }
+}

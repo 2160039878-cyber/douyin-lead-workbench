@@ -1,0 +1,3 @@
+https://github.com/Yht20927/douyin-cli
+Commit: 4073159bea585de6d33a4747a475669440737932
+MIT. Selected browser methods; removed general eval transport, random posting metadata and raw response errors. Fixed int64 encoding. DM acknowledgement remains unverified.

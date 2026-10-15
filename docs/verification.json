@@ -1,0 +1,118 @@
+{
+  "mcp-final-installed-check": {
+    "passed": true,
+    "packaged": true,
+    "versions": {
+      "electron": "44.7.2",
+      "node": "24.21.0"
+    },
+    "pages": [
+      {
+        "page": "dashboard",
+        "title": "让每条线索，都有来处。",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "tasks",
+        "title": "搜索采集",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "leads",
+        "title": "潜客列表",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "review",
+        "title": "审核发送",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "logs",
+        "title": "操作日志",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "settings",
+        "title": "设置",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      }
+    ],
+    "interactions": [
+      "通过真实设置表单保存模板",
+      "通过界面开启 MCP，安装包实际 HTTP 初始化、10 个工具发现及状态查询",
+      "通过界面关闭 MCP 后拒绝请求",
+      "草稿实际编辑保存、再次编辑取消保持原内容及版本、外部 HTML 作为文本显示"
+    ]
+  },
+  "mcp-portable-check": {
+    "passed": true,
+    "packaged": true,
+    "versions": {
+      "electron": "44.7.2",
+      "node": "24.21.0"
+    },
+    "pages": [
+      {
+        "page": "dashboard",
+        "title": "让每条线索，都有来处。",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "tasks",
+        "title": "搜索采集",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "leads",
+        "title": "潜客列表",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "review",
+        "title": "审核发送",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "logs",
+        "title": "操作日志",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      },
+      {
+        "page": "settings",
+        "title": "设置",
+        "overflow": false,
+        "node": "undefined",
+        "errors": false
+      }
+    ],
+    "interactions": [
+      "通过真实设置表单保存模板",
+      "通过界面开启 MCP，安装包实际 HTTP 初始化、10 个工具发现及状态查询",
+      "通过界面关闭 MCP 后拒绝请求",
+      "草稿实际编辑保存、再次编辑取消保持原内容及版本、外部 HTML 作为文本显示"
+    ]
+  }
+}
